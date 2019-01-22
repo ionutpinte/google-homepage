@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#headerMenu{
+    list-style-type: none;
+    overflow: hidden;
+    margin:1% 1% 0 0;
+    font-size:15px;
+}
+
+#headerMenu li{
+    float:right;
+}
+
+#headerConnect{
+    background-color:#4285f4;
+    color:white;
+    border-radius:2%;
+}
+
+
+#headerMenu li a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:black;
+}
+
+#headerMenu li a:hover{
+    text-decoration:underline;
+}
+
+
+#main{
+    margin-top:10%;
+    width: 100%;
+    top:20%;
+    margin-bottom:15%;
+}
+
+#logo{
+    display:block;
+    margin:auto;
+}
+
+#searchInput{
+    display:block;
+    margin:auto;
+    margin-top:1%;
+    height:35px;
+    width:500px;
+    border-radius:0;
+    border:1px solid rgba(0,0,0,0.1);
+    box-shadow:1px 1px 8px rgba(0,0,0,0.1);
+    padding:1%;
+}
+
+#searchInput:hover{
+    box-shadow:1px 1px 10px rgba(0,0,0,0.2);
+}
+
+#searchInput:focus{
+    box-shadow:1px 1px 10px rgba(0,0,0,0.2);
+}
+
+#divButtons{
+    text-align:center;
+    padding:2%;
+}
+
+.searchButtons{
+    border:none;
+    margin-right:10px;
+    width:170px;
+    color:gray;
+    padding:10px;
+}
+
+button{
+    cursor:pointer;
+}
+
+.searchButtons:hover{
+    color:#222;
+    background-color:#f8f8f8;
+    border:1px solid rgba(0,0,0,0.1);
+    box-shadow:1px 1px 10px rgba(0,0,0,0.2);
+}
+
+#divLanguages{
+    text-align:center;
+}
+
+#languages{
+    font-size:15px;
+}
+
+#languages a{
+    text-decoration:none;
+}
+
+
+#languages a:hover{
+    text-decoration:underline;
+}
+
+#footer{
+    background-color:#f1f1f1;
+}
+
+#footerCountry{
+    text-indent:16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding:10px;
+}
+
+#leftFooterMenu{
+    float:left;
+    list-style-type: none;
+    overflow: hidden;
+    margin:1% 1% 0 0;
+    font-size:15px;
+}
+
+#leftFooterMenu li{
+    float:left;
+}
+
+#leftFooterMenu li a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+#rightFooterMenu{
+    list-style-type: none;
+    overflow: hidden;
+    margin:1% 1% 0 0;
+    font-size:15px;
+    float:right;
+}
+
+#rightFooterMenu li{
+    float:right;
+}
+
+#rightFooterMenu li a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#footer a{
+    color:black;
+}
+
+#footer a:hover{
+    text-decoration:underline;
+}
